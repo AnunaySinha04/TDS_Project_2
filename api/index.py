@@ -1,7 +1,12 @@
 # api/index.py
 from fastapi import FastAPI
+from fastapi import FastAPI
+from app.router import router  # wherever your routes are
 
 app = FastAPI()
+app.include_router(router)
+
+handler = app  # Required by Vercel
 
 @app.get("/")
 def root():
