@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+pandas
+matplotlib
+scikit-learn
+python-multipart
+pillow
+duckdb[parquet]
+pyarrow
+boto3
+openai
+faiss-cpu
+tiktoken
+python-dotenv

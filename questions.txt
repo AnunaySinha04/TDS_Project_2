@@ -1,0 +1,2 @@
+What is the total salary?
+Who is the oldest employee?
